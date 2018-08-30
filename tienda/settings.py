@@ -25,7 +25,7 @@ SECRET_KEY = '(u2j$4a(4lpio$%x195mx0#1ux0y3x=a&hzbvlfabeo$mbf5b3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['demotienda.herokuapp.com']
+ALLOWED_HOSTS = ['tienda-demo-django.herokuapp.com']
 
 
 # Application definition
