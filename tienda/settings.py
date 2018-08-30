@@ -80,14 +80,14 @@ WSGI_APPLICATION = 'tienda.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
-        # 'ENGINE': 'django.db.backends.mysql',
-        # 'NAME': 'tienda_cluster',
-        # 'USER': 'root',
-        # 'PASSWORD': '',
-        # 'HOST': '127.0.0.1',
-        # 'PORT': '3306',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql.config',
+        'NAME': 'd3cipj6p1c08sq',
+        'USER': 'vlmemvcgfyqgkt',
+        'PASSWORD': 'bc74385d3efb475a82af71bcead041fd04af2ec098db017d20b26913140c7575',
+        'HOST': 'ec2-54-243-31-34.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
